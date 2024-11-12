@@ -1,0 +1,118 @@
+.product-form {
+padding: 1.5rem;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+max-width: 400px;
+margin: 1.5rem auto;
+}
+
+.product-form h2 {
+margin-bottom: 1rem;
+text-align: center;
+font-size: 1.5rem;
+}
+
+.product-form input[type="text"],
+.product-form input[type="number"],
+.product-form input[type="file"],
+.product-form button {
+width: 100%;
+padding: 0.8rem;
+margin-bottom: 1rem;
+border-radius: 6px;
+border: 1px solid #ccc;
+font-size: 1rem;
+}
+
+/* Estilo para el botón de enviar */
+.submit-btn {
+color: white;
+border: none;
+cursor: pointer;
+font-weight: bold;
+transition: background-color 0.3s;
+max-width: 325px;
+}
+
+.submit-btn:hover {
+}
+
+
+/* Estilos generales */
+.category-section {
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Establecer un ancho máximo y centrar el producto */
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s;
+  max-width: 350px;
+  margin: auto;
+}
+
+.product-item:hover {
+  transform: translateY(-5px);
+}
+
+.product-item img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-item h3 {
+  font-size: 1.2rem;
+}
+
+.product-item p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #45a049;
+}
+
+.product-item button {
+  padding: 8px 12px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.product-item button:hover {
+  background-color: #8ae59d;
+}
+
+/* Media query para móviles */
+@media (max-width: 600px) {
+  .product-item img {
+    height: 200px; 
+  }
+}
+
+/* Media query para tablets y pantallas medianas (600px - 900px) */
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}

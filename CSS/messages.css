@@ -1,0 +1,38 @@
+/* Estilo para cada tarjeta de usuario */
+.message-card {
+   border-radius: 8px;
+   padding: 1rem;
+   width: 400px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   overflow: hidden;
+   margin-bottom: 10px;
+}
+
+/* Botones en cada tarjeta */
+.user-card-buttons {
+   margin-top: 1rem;
+   display: flex;
+   gap: 0.5rem;
+}
+
+.delete-btn {
+   padding: 0.5rem;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.2s;
+}
+
+.delete-button {
+   background-color: #f44336;
+   color: white;
+}
+
+
+.delete-button:hover {
+   background-color: #d32f2f;
+}

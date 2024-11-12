@@ -1,0 +1,61 @@
+/* Estilo general del contenedor de compras */
+#compras-list, #compras-list2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 20px 0;
+ }
+ 
+ /* Estilo de cada compra */
+ .compra {
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   margin: 15px 0;
+   width: 100%;
+   max-width: 600px;
+   transition: transform 0.2s;
+ }
+ 
+ /* Efecto de hover para las compras */
+ .compra:hover {
+   transform: scale(1.02);
+ }
+ 
+ /* Títulos de las compras */
+ .compra h3 {
+   margin: 0 0 10px;
+   font-size: 1.5em;
+ }
+ 
+ /* Estilo de la lista de detalles de la compra */
+ .compra ul {
+   list-style-type: none;
+   padding: 0;
+ }
+ 
+ /* Estilo de cada elemento de la lista */
+ .compra ul li {
+   padding: 10px 0;
+   border-bottom: 1px solid #eee;
+ }
+ 
+ /* Último elemento de la lista (sin borde) */
+ .compra ul li:last-child {
+   border-bottom: none;
+ }
+ 
+ /* Estilo de los precios o detalles importantes */
+ .compra p {
+   font-weight: bold;
+   font-size: 1.1em;
+ }
+ 
+ /* Estilo del título de las secciones de historial */
+ h1 {
+   text-align: center;
+   font-size: 2em;
+   margin-bottom: 20px;
+ }
+ 
